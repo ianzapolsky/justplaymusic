@@ -1,3 +1,5 @@
+/*	YoutubeCrawler fetches raw HTML data from www.youtube.com
+	by Ian Zapolsky (8/14/13) */
 
 import java.net.*;
 import java.io.*;

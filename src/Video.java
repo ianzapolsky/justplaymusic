@@ -1,3 +1,6 @@
+/* 	Video represents a video and its data, including its unique URL id
+	by Ian Zapolsky (6/14/13) */
+
 import java.util.Scanner;
 
 public class Video {
@@ -29,6 +32,10 @@ public class Video {
 
 	public String getId() {
 		return id;
+	}
+
+	public String getTitle() {
+		return title;
 	}
 
 	public String toString() {
