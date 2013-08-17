@@ -30,12 +30,20 @@ public class Video {
 		}
 	}
 
-	public String getId() {
-		return id;
-	}
-
 	public String getTitle() {
 		return title;
+	}
+
+	public String getTime() {
+		return time;
+	}
+
+	public String getViews() {
+		return views;
+	}
+
+	public String getId() {
+		return id;
 	}
 
 	public String toString() {

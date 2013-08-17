@@ -21,7 +21,7 @@ public class YoutubeCrawler {
 		in = new Scanner(new InputStreamReader(u.openStream()));
 		String raw_html;
 
-		for (int i = 0; i < 9; i++) {
+		for (int i = 0; i < 19; i++) {
 			in.findWithinHorizon("context-data-item\"", 0);
 			raw_html = in.nextLine()+"\n";
 			raw_html += in.nextLine()+"\n";
